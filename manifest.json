@@ -13,6 +13,10 @@
     {
       "matches": ["*://rotter.net/*"],
       "js": ["rotter-remove-talkback.js"]
+    },
+    {
+      "matches": ["*://news.walla.co.il/*"],
+      "js": ["walla-remove-talkback.js"]
     }
   ]
 
