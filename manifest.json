@@ -9,6 +9,10 @@
     {
       "matches": ["*://*.ynet.co.il/*"],
       "js": ["ynet-remove-talkback.js"]
+    },
+    {
+      "matches": ["*://rotter.net/*"],
+      "js": ["rotter-remove-talkback.js"]
     }
   ]
 
