@@ -15,6 +15,10 @@
       "js": ["rotter-remove-talkback.js"]
     },
     {
+      "matches": ["*://*.hamal.co.il/*"],
+      "js": ["hamal-remove-talkback.js"]
+    },
+    {
       "matches": ["*://news.walla.co.il/*"],
       "js": ["walla-remove-talkback.js"]
     }
