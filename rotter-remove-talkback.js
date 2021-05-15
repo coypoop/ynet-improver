@@ -1,3 +1,5 @@
 var style = document.createElement('style');
 document.head.appendChild(style);
-style.sheet.insertRule('font > center { display: none; }');
+if (!document.title.includes("אשכול")) {
+	style.sheet.insertRule('font > center { display: none; }');
+}
